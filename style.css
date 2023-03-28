@@ -1,0 +1,128 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./bg-desktop.svg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 50px;
+}
+main{
+    min-height: 90vh;
+    display: flex;
+}
+section img{
+    padding-top: 40px;
+}
+.container{
+    padding: 50px 50px;
+    display: grid;
+    justify-content: center;
+}
+.content h1{
+    font-family: Inter;
+    font-size: 2.4em;
+    font-weight: 800;
+    color: #fff;
+    
+}
+.content p{
+    font-family: Inter;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #fff;
+}
+.content button{
+    width: 9em;
+    height: 35px;
+    border-radius: 15px;
+    outline: none;
+    border-width: 0px;
+    color: hsl(257, 40%, 49%);
+    cursor:pointer;
+}
+.content button:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+.social{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 200px;
+    padding: 10px;
+}
+.social i{
+    justify-content: space-between;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    border-width: 0.25px;
+    color: #fff;
+    outline: solid;
+    background: transparent;
+    cursor: pointer;
+}
+.social i:hover{
+    color: hsl(300, 69%, 71%);
+    border-width: 0.5px solid hsl(300, 69%, 71%);
+}
+footer{
+    text-align: center;
+}
+.attribution{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 1em;
+}
+@media screen and (max-width: 500px) {
+    body{
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(257, 40%, 49%);
+        padding: 10px 10px;
+    }
+    header img{
+        padding-top: 25px;
+        width: 10rem;
+
+    }
+    main{
+        display: grid;
+    }
+    section img{
+        padding-top: 20px;
+        width: 21em;
+        height: 18em;
+    }
+    .container{
+        padding: 10px 35px;
+        display: grid;
+        justify-content: center;
+    }
+    .content{
+        text-align: center;
+    }
+    .content h1{
+        font-family: Inter;
+        font-size: 1.5em;
+        font-weight: 800;
+        text-align: center;
+        color: #fff;  
+    }
+    .content p{
+        font-family: Inter;
+        text-align: center;
+        font-size: 0.9em;
+        font-weight: 400;
+        color: #fff;
+        height: 7rem;
+    }
+    .content button{
+        width: 11em;
+        height: 35px;
+        border-radius: 15px;
+        outline: none;
+        border-width: 0px;
+        color: hsl(257, 40%, 49%);
+        cursor:pointer;
+    }
+}
